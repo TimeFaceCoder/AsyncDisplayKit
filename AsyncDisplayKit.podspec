@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'http://asyncdisplaykit.org'
   spec.authors      = { 'Scott Goodson' => 'scottgoodson@gmail.com', 'Ryan Nystrom' => 'rnystrom@fb.com' }
   spec.summary      = 'Smooth asynchronous user interfaces for iOS apps.'
-  spec.source       = { :git => 'https://github.com/facebook/AsyncDisplayKit.git', :tag => '1.9.90' }
+  spec.source       = { :git => 'https://github.com/TimeFaceCoder/AsyncDisplayKit.git' }
 
   spec.documentation_url = 'http://asyncdisplaykit.org/appledoc/'
 
@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.weak_frameworks = 'Photos','MapKit'
   spec.requires_arc = true
 
-  spec.ios.deployment_target = '7.0'
+  spec.ios.deployment_target = '8.0'
 
   # Uncomment when fixed: issues with tvOS build for release 1.9.8
   # spec.tvos.deployment_target = '9.0'
